@@ -42,7 +42,7 @@ It has only one endpoint. Because the solution should provide only 1 REST endpoi
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `name` | `string` | **Required**. Student's name |
-| `surnam` | `string` | **Required**. Student's surname |
+| `surname` | `string` | **Required**. Student's surname |
 | `stdNumber` | `string` | **Required**. Student's number |
 | `grades` | `Array of {code: string, value: number}` | **Required**. Array of objects representing the student's grades. Each object has a code (string) representing the course code and a value (number) representing the grade. |
 
